@@ -1,16 +1,19 @@
 import { Text, View, StyleSheet } from 'react-native';
 import { useEffect } from 'react';
 import Homepage from '../components/Homepage'
+import { NavigationContainer } from '@react-navigation/native';
+import HomeNavigations from '../navigations/HomeNavigations'
 export default function Home() {
   return (
     <View style={styles.container}>
-      <Homepage/>
+      <HomeNavigations />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
+    flex:1,
     backgroundColor: '#fff', // Ensure it's not black
   },
   text: {
