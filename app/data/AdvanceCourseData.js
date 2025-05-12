@@ -3,16 +3,16 @@ export const AdvanceCourseData =
         data : [
             {
                 id:1,
-                name:'Advance Course 1',
+                name:'React Native',
                 description:"description daal dena",
-                image:'https://img.freepik.com/premium-photo/great-picture-image-will-make-your-work-more-beautiful_987032-102143.jpg',
+                image:'https://i.ytimg.com/vi/nyZnGQ8HrDw/maxresdefault.jpg',
                 Topic:"topic ka bhi koi array hai"
             },
             {
                 id:2,
-                name:"Advance Course 2",
+                name:"Flutter For Beginners",
                 description:"description daal dena",
-                image:'https://img.freepik.com/premium-photo/great-picture-image-will-make-your-work-more-beautiful_987032-102143.jpg',
+                image:'https://uploads-ssl.webflow.com/6377bf360873283fad488724/638ca82a95fb434e6f42a283_Flutter.png',
                 Topic:"topic ka bhi koi array hai"
             },
         ]

@@ -8,14 +8,14 @@ function CourseListBasic() {
     const navigation=useNavigation();
     const onPressCourse=(courseInfo)=>{
       // console.log(courseInfo)
-      navigation.navigate('course-details',{courseData:courseInfo})
+      navigation.navigate('course-details',{courseData:courseInfo,courseType:"video"})
     }
   return (
     <View style={{marginTop:10}}>
-        <Text style={{fontSize:20,fontWeight:'bold',marginBottom:3}}>Basic Courses</Text>
+        <Text style={{fontSize:20,fontWeight:'bold',marginBottom:3}}>Video Lectures</Text>
         <FlatList horizontal={true} showsHorizontalScrollIndicator={false}  data={courseList} renderItem={({item})=>(
                     <TouchableOpacity style={{backgroundColor:'#fff',marginRight:10,borderRadius:10}} onPress={()=>onPressCourse(item)}>
-                        <Image source={{uri:item.image}} style={{width:210,height:100,borderRadius:10}}/>
+                        <Image source={{uri:item.image}} style={{width:250,height:100,borderRadius:10}}/>
                         <View style={{padding:10,fontWeight:'bold',fontSize:15}}><Text>{item.name}</Text></View>
                     </TouchableOpacity>
                 )}/>

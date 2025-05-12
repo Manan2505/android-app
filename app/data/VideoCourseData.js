@@ -4,16 +4,16 @@ export const VideoCourseData =
         data : [
             {
                 id:1,
-                title:"Python",
+                name:"Python Programming",
                 description:"Python desc daal dena",
-                image:"https://www.filepicker.io/api/file/P1DWTiyMTHeP06UNwYof",
+                image:"https://www.unite.ai/wp-content/uploads/2022/04/AI-Python-Libraries.png",
                 videoTopic:"Video topic daal dena"
             },
             {
                  id:2,
-                title:"Java",
+                name:"Java Basics",
                 description:"Java desc daal dena",
-                image:"https://www.chawtechsolutions.com/wp-content/uploads/2020/10/java_binary.jpg",
+                image:"https://extension.harvard.edu/wp-content/uploads/sites/8/2020/10/coding.jpg",
                 videoTopic:"Video topic daal dena"
             },
         ]

@@ -7,35 +7,54 @@ export const CourseContentData =
                 name:'Basic Course 1',
                 description:"description daal dena",
                 image:'https://img.freepik.com/premium-photo/great-picture-image-will-make-your-work-more-beautiful_987032-102143.jpg',
-                Topic:"Introduction"
+                Topic:"Introduction",
+                TopicData:[
+                    {                      
+                        name:'What is Python',
+                        description:'Python desc in topicData array',
+                        input:"var a=12; var b=13; printf(a+b);",
+                        output:"25",
+                    },
+                    {                      
+                        name:'What can Python do',
+                        description:'Python desc in topicData array',
+                         input:"var a=12; var b=13; printf(a+b);",
+                        output:"25",
+                    },
+
+                ]
             },
             {
                 id:2,
                 name:"Basic Course 2",
                 description:"description daal dena",
                 image:'https://img.freepik.com/premium-photo/great-picture-image-will-make-your-work-more-beautiful_987032-102143.jpg',
-                Topic:"Variables"
+                Topic:"Variables",
+                TopicData:"THis is varibale"
             },
              {
-                id:2,
+                id:3,
                 name:"Basic Course 2",
                 description:"description daal dena",
                 image:'https://img.freepik.com/premium-photo/great-picture-image-will-make-your-work-more-beautiful_987032-102143.jpg',
-                Topic:"Data Types"
+                Topic:"Data Types",
+                TopicData:"THis is data type"
             },
              {
-                id:2,
+                id:4,
                 name:"Basic Course 2",
                 description:"description daal dena",
                 image:'https://img.freepik.com/premium-photo/great-picture-image-will-make-your-work-more-beautiful_987032-102143.jpg',
-                Topic:"Numbers"
+                Topic:"Numbers",
+                TopicData:"THis is numbers"
             },
              {
-                id:2,
+                id:5,
                 name:"Basic Course 2",
                 description:"description daal dena",
                 image:'https://img.freepik.com/premium-photo/great-picture-image-will-make-your-work-more-beautiful_987032-102143.jpg',
-                Topic:"Casting"
+                Topic:"Casting",
+                TopicData:"THis is casting"
             },
         ]
     }

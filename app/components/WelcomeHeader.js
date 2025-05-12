@@ -6,8 +6,7 @@ export default function WelcomeHeader(){
     return(
         <View style={styles.container}>
            <View>
-             <Text>Hey,</Text>
-            <Text style={{fontSize:20,fontWeight:'bold'}}>User</Text>
+            <Text style={{fontSize:20,fontWeight:'bold'}}>EduElevate</Text>
            </View>
            <Image source={{uri:'https://img.freepik.com/premium-photo/best-amazing-wonderful-this-photo-take-this-picture-your-work-ai-generated-top-lovely-photo_1169327-105130.jpg'}} style={{width:40,height:40,borderRadius:100}}/>
         </View>

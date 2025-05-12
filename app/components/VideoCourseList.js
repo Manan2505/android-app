@@ -13,10 +13,11 @@ function VideoCourseList() {
     }
   return (
     <View style={{marginTop:15}}>
-        <Text style={{fontSize:20,fontWeight:'bold',marginBottom:3}}>Video Course</Text>
+        <Text style={{fontSize:20,fontWeight:'bold',marginBottom:3}}>Programming Languages</Text>
         <FlatList horizontal={true} showsHorizontalScrollIndicator={false} data={videoList} renderItem={({item})=>(
                     <TouchableOpacity onPress={()=>onPressCourse(item)}>
-                        <Image source={{uri:item.image}} style={{width:200,height:100,borderRadius:10,borderWidth:1,marginRight:10}}/>
+                        <Image source={{uri:item.image}} style={{width:250,height:100,borderRadius:10,marginRight:10}}/>
+                   <View style={{padding:10,fontWeight:'bold',fontSize:15}}><Text>{item.title}</Text></View>
                     </TouchableOpacity>
                 )}/>
     </View>
