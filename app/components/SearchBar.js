@@ -6,7 +6,7 @@ export default function Home(){
     return(
         <View style={styles.container}>
             <Ionicons name='search' size={24} color={Colors.gray} style={{marginRight:10}}/>
-            <TextInput placeholder='Search'/>
+            <TextInput placeholder='Search' value='Search'/>
         </View>
     )
 }

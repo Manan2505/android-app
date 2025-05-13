@@ -4,17 +4,19 @@ export const BasicCourseData =
         data : [
             {
                 id:1,
-                name:'JavaScript For Beginners',
-                description:"description daal dena",
-                image:'https://files.ably.io/ghost/prod/2023/12/choosing-the-best-javascript-frameworks-for-your-next-project.png',
+               
+                name:"Learn ReactJS",
+                description:"Learn React JS from the ground up and build powerful, interactive web applications. Understand core concepts like components, state, props, and hooks with hands-on examples. Ideal for beginners and developers looking to master modern frontend development.",
+                image:'https://fireship.io/courses/react/img/featured.png',
                 Topic:"topic ka bhi koi array hai"
             },
             {
                 id:2,
-                name:"Learn ReactJS",
+                 name:'JavaScript For Beginners',
                 description:"description daal dena",
-                image:'https://avinyaweb.com/wp-content/uploads/2023/05/reactjs-basics-920x460.jpg',
+                image:'https://onlinecoursesgalore.com/wp-content/uploads/2018/01/best-javascript-programming-courses-online.jpg',
                 Topic:"topic ka bhi koi array hai"
+                
             },
              {
                 id:3,

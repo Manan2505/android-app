@@ -8,7 +8,7 @@ export default function WelcomeHeader(){
            <View>
             <Text style={{fontSize:20,fontWeight:'bold'}}>EduElevate</Text>
            </View>
-           <Image source={{uri:'https://img.freepik.com/premium-photo/best-amazing-wonderful-this-photo-take-this-picture-your-work-ai-generated-top-lovely-photo_1169327-105130.jpg'}} style={{width:40,height:40,borderRadius:100}}/>
+           <Image source={{uri:'https://static.vecteezy.com/system/resources/thumbnails/025/869/583/small_2x/profile-image-of-man-avatar-for-social-networks-with-half-circle-fashion-bright-illustration-in-trendy-style-vector.jpg'}} style={{width:50,height:40,borderRadius:100,marginTop:8}}/>
         </View>
         
     )

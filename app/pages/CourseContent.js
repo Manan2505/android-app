@@ -11,15 +11,16 @@ function CourseContent({courseType}) {
     const data=CourseContentData.Topic;
     // console.log(data)
     const onChapterPress=(item)=>{
-      console.log("INSIDE")
+      // console.log("INSIDE")
       if(courseType=="video"){
         navigation.navigate('course-video',{courseContent:item,courseId:item.id})
+        console.log("VIdeo")
       }else{
         navigation.navigate('course-chapter',{courseContent:item,courseId:item.id})
       }
     }
   return (
-    <View style={{marginTop:10}}>
+    <View style={{marginTop:20}}>
         <Text style={{fontWeight:'bold',fontSize:16}}>Course Content</Text>
         <FlatList style={{marginTop:10}} data={data} renderItem={({item,index})=>(
             <TouchableOpacity onPress={()=>onChapterPress(item)} style={{display:'flex',flexDirection:'row',backgroundColor:'#fff',marginBottom:5,padding:13,alignItems:'center',borderRadius:5}}>

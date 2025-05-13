@@ -9,7 +9,7 @@ function CourseListAdvance() {
         const navigation=useNavigation();
         const onPressCourse=(courseInfo)=>{
           // console.log(courseInfo)
-          navigation.navigate('course-details',{courseData:courseInfo})
+          navigation.navigate('no-content')
         }
   return (
     <View style={{marginTop:10}}>
