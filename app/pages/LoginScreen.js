@@ -8,14 +8,14 @@ export default function LoginScreen({ navigation }) {
 
   const handleLogin = async () => {
     try {
-      await axios.post('http://192.168.29.176:3000/login', { email, password });
+      await axios.post('https://android-app-2.onrender.com/login', { email, password });
       Alert.alert('Success', 'Login successful');
       navigation.navigate('home');
     } catch (err) {
       Alert.alert('Error', err.response?.data?.error || 'Something went wrong');
     }
   };
-// mongodb+srv://aroramanank1234:UWv5CKpnWfvygA7N@cluster0.akvkmnz.mongodb.net/
+
   return (
     <View style={styles.container}>
       <Text style={styles.heading}>Welcome Back</Text>

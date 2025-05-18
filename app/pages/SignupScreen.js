@@ -8,7 +8,7 @@ export default function SignupScreen({ navigation }) {
 
   const handleSignup = async () => {
     try {
-      await axios.post('http://192.168.29.176:3000/signup', { email, password });
+      await axios.post('https://android-app-2.onrender.com/signup', { email, password });
       Alert.alert('Success', 'Signup successful');
       navigation.navigate('login');
     } catch (err) {
